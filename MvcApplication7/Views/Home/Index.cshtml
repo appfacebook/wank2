@@ -1,0 +1,8 @@
+﻿@model MvcApplication7.Models.UserViewModel
+
+
+@using (Html.BeginForm("ActionStart", "Home", FormMethod.Post))
+{
+    @Html.TextBoxFor(model => model.leto)
+    @Html.TextBoxFor(model => model.zima)
+}
